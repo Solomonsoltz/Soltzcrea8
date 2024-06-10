@@ -1,0 +1,1076 @@
+:root {
+    --buttoncolor: rgba(11, 92, 211, 1);
+    --bg-color: #333333;
+    --text-color: #ffffff;
+    --whitecolor: rgba(255, 255, 255, 1);
+    --footerblackcolor: rgba(32, 32, 32, 1);
+    --fontfamily: 'Exo 2', sans-serif;
+}
+
+body {
+    background-color: rgb(29, 28, 28);
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontfamily);
+    color: var(--text-color);
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* header starts here */
+
+.header {
+    background-color: rgb(29, 28, 28);
+    width: 100%;
+    padding: 18px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.soltz-logo {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 1100px !important;
+    color: var(--text-color);
+}
+
+.soltz-logo-upload {
+    background-image: url(../asset/Logo\ 1\ -Soltz\ @300x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+}
+
+.navbutton-nav i {
+    font-size: 20px;
+    color: var(--whitecolor);
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list li{
+    margin-left: 25px;
+}
+
+.navigation-list a{
+    color: var(--text-color) !important;
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+.navigation-list a:hover {
+    color: wheat !important;
+}
+
+.button-cv button {
+    background-color: var(--buttoncolor);
+    border: none;
+
+}
+
+.button-cv-change {
+    color: var(--whitecolor);
+}
+
+.motiondesign {
+    padding-top: 156px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 80px;
+    }
+}
+
+/* ends here */
+
+/*navbar toggle button*/
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler:hover {
+    border: none !important;
+}
+/* ends */
+
+/* dark and light theme*/
+
+.mode {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.change {
+    cursor: pointer;
+}
+
+.icon {
+    color: wheat;
+}
+
+.icon:hover {
+    color: black;
+    transition: 2s;
+}
+.dark{
+    background-color: var(--whitecolor);
+    /*color: var(--footerblackcolor);*/
+    color: black;
+}
+
+/* ends here */
+
+
+
+.bg-graphic {
+    background-image: url(../asset/solo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.bg-graphic-section {
+    padding: 0px 80px 40px 0px;
+}
+
+.bg-graphic-text {
+    width: 250px;
+    padding: 7px 0px;
+    color: var(--whitecolor);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    border: 2px solid var(--whitecolor);
+    border-radius: 90px;
+}
+
+.social-media-font-icons {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-font-icons i {
+    font-size: 30px;
+}
+
+.social-media-font-icons a {
+    text-decoration: none;
+    color: var(--whitecolor);
+}
+
+.social-media-font-icons-div {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--whitecolor);
+    border-radius: 100%;
+}
+
+.social-media-font-icons-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .bg-graphic-section {
+        display: none;
+    }
+}
+
+/* ends here */
+
+/*motion detail */
+
+.motiondetail {
+    padding: 40px 0px 120px 0px;
+}
+
+.motiondetail-section {
+    text-align: center;
+}
+
+.motiondetail-section-header {
+    background-color: #282828;
+    width: 210px;
+    margin: 0px auto;
+    font-size: 14px
+}
+
+.motiondetail-section h1{
+    padding: 10px 0px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.motiondetail-section-detail {
+    margin: 0px auto;
+    font-size: 17px;
+    color: grey;
+    line-height: 1.8x;
+}
+
+@media (max-width: 768px) {
+    .motiondetail {
+        padding: 30px 0px 90px 0px;
+    }
+
+    .motiondetail-section h1{
+        font-size: 45px;
+    }
+
+    .motiondetail-section-detail {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+/* ends here */
+/* Projects */
+.profile {
+    line-height: 0.1px;
+}
+
+.profile-work {
+    background-color: #282828;
+    width: 50px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.profile-feature {
+    margin: 15px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.profile-subtext {
+    font-size: 15px;
+}
+
+/*.projects {
+    padding: 80px 6.5% 5% 6.5%;
+}*/
+
+#portfolio-flters {
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+}
+  
+#portfolio-flters li {
+    cursor: pointer;
+    margin: 0px 170px 0px 0px ;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.413);
+    font-size: 16px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*min-width: 20%;*/
+    font-weight: 500;
+    line-height: 20px;
+    color: #9b9898;
+    transition: all 0.3s;
+}
+#portfolio-flters li i {
+    margin-right: 7px;
+}
+#portfolio-flters li:hover, #portfolio-flters li.active {
+    background: var(--primaryColor);
+    color: #fff;
+    border-bottom: 1px solid var(--secondaryColor);
+}
+
+.background-upload {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.zeus-app-motion {
+    background-image: url(../asset/Zeus\ App\ Front\ Cover.jpg);
+    background-position: top;
+}
+
+.flow-tab-motion {
+    margin-top: 20px;
+    background-image: url(../asset/flow21.jpg);
+    background-position: top;
+}
+
+.tab-phone-motion {
+    margin-top: 20px;
+    background-image: url(../asset/Gamer\ XX2.jpg);
+    background-position: top;
+}
+
+.flash-project-motion {
+    margin-top: 20px;
+    background-image: url(../asset/Flash\ Project.jpg);
+    background-position: top;
+}
+
+.mschf-project-motion {
+    margin-top: 20px;
+    background-image: url(../asset/Mscfh.jpg);
+    background-position: top;
+}
+
+.akinbobola-project-branding {
+    margin-top: 20px;
+    background-image: url(../asset/Akinbobola.jpg);
+    background-position: top;
+}
+
+.zerothreefoot-project-branding {
+    margin-top: 20px;
+    background-image: url(../asset/03\ Foot.jpg);
+    background-position: center;
+}
+
+.background-upload-motion-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.background-upload-motion-details {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    padding: 0px 0px 10px 20px;
+    margin: 0;
+    position: absolute;
+    bottom: 25px;
+    border-radius: 10px;
+    color: var(--whitecolor);
+}
+
+.akinbobola-project-motion-hover {
+    background-color: rgba(32, 32, 32, 0.5);
+}
+
+.zerothreefoot-project-motion-hover {
+    background-color: rgba(32, 32, 32, 0.5);
+}
+
+.background-upload-motion-details-header {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.background-upload-motion-details-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.zeus-app-motion-hover:hover {
+    background-color: rgb(138, 43, 226, 0.5);
+}
+
+.flow-tab-motion-hover:hover {
+    background-color: rgb(222, 184, 135, 0.5);
+}
+
+.tab-phone-motion-hover:hover {
+    background-color: rgb(216, 112, 147, 0.5);
+}
+
+.flash-project-motion-hover:hover {
+    background-color: rgb(212, 185, 133, 0.5);
+}
+
+.akinbobola-project-motion-hover:hover {
+    background-color: rgb(57, 208, 255, 0.5);
+}
+
+.zerothreefoot-project-motion-hover:hover {
+    background-color: rgb(224, 122, 47, 0.5);
+}
+
+.mschf-project-motion-hover:hover {
+    background-color: rgb(255, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .profile-feature {
+        margin: 13px 0px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1;
+    }
+
+    .profile-subtext {
+        font-size: 13px;
+    }
+
+    #portfolio-flters li {
+        margin: 0px 18px 0px 0px ;
+        border-bottom: 1px solid rgba(153, 153, 153, 0.413);
+        font-size: 14px;
+        padding: 15px 20px;
+        min-width: 20%;
+        font-weight: 500;
+        line-height: 20px;
+        transition: all 0.3s;
+    }
+
+    .background-upload {
+        height: 470px;
+        background-position: center;
+    }
+
+    .background-upload-motion-details {
+        padding: 0px 0px 10px 20px;
+        color: var(--whitecolor);
+    }
+    
+    .background-upload-motion-details-header {
+        font-size: 20px;
+    }
+    
+    .background-upload-motion-details-text {
+        font-size: 15px;
+    }
+}
+
+/*selected video section*/
+
+.selectedvideos {
+    margin: 90px 0px 0px 0px;
+}
+
+.selectedvideos-subtext {
+    padding: 0px 0px 20px 0px;
+    font-size: 15px;
+}
+
+.selectedvideos-carousel {
+    position: relative;
+}
+
+.selectedvideos-flex {
+    display: flex;
+}
+
+.selectedvideos-flex a {
+    color: var(--whitecolor);
+    text-decoration: none;
+}
+
+.selectedvideos-flex-link {
+    margin: 0px 20px 80px 0px;
+    color: var(--whitecolor);
+    text-decoration: none;
+}
+
+.selectedvideos-flex-item {
+    background-color: #222;
+    width: 270px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selectedvideos-flex-item-one {
+    margin-left: 16px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.selectedvideos-flex-item-two {
+    margin: 15px 0px 15px 16px;
+    font-size: 14px;
+    color: rgb(226, 223, 223);
+}
+
+.selectedvideos-flex-item-bg {
+    width: 240px;
+    height: 320px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cdial-flex-item-bg {
+    background-image: url(../asset/cdial.png);
+}
+
+.cdialtwo-flex-item-bg {
+    background-image: url(../asset/cdial2.png);
+}
+
+.vawick-flex-item-bg {
+    background-image: url(../asset/vawick.png);
+}
+
+.swirly-flex-item-bg {
+    background-image: url(../asset/swirly.png);
+    background-position: center;
+}
+
+.season-flex-item-bg {
+    background-image: url(../asset/season.png);
+}
+
+.fifa-flex-item-bg {
+    background-image: url(../asset/fifa.png);   
+}
+
+.sat-flex-item-bg {
+    background-image: url(../asset/sat.png);
+}
+
+.left-right-left {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    border-radius: 100%;
+}
+
+.left-right-right {
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    border-radius: 100%;
+}
+
+#left-right i {
+    cursor: pointer;
+    padding: 10px 13px;
+    font-size: 14px;
+    color: var(--footerblackcolor);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .selectedvideos-subtext {
+        font-size: 13px;
+    }
+
+    .selectedvideos-flex-item {
+        width: 250px;
+    }
+    
+    .selectedvideos-flex-item-one {
+        margin-left: 15px;
+        font-size: 19px;
+    }
+    
+    .selectedvideos-flex-item-two {
+        margin: 15px 0px 15px 15px;
+        font-size: 13px;
+    }
+    
+    .selectedvideos-flex-item-bg {
+        width: 220px;
+        height: 300px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .selectedvideos-carousel {
+        display: none;
+    }
+
+    .mobile-view {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .mobile-view a {
+        color: var(--whitecolor);
+        text-decoration: none;
+    }
+
+    .selectedvideos-flex-item {
+        background-color: #222;
+        width: inherit;
+        padding: 20px 0px;
+    }
+
+    .selectedvideos-flex-item-bg {
+        width: 93%;
+        height: 350px;
+        /*background-color: aqua;*/
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .carousel-carousel-mobile-container {
+        transition: all 0.3s ease;
+    }
+
+    .item {
+        display: none;
+      }
+      
+    .main {
+        display: block;
+      }
+
+    .navigation-for-mobile .prev {
+      position: absolute;
+      top: 250px;
+      left: 10px;
+
+    }
+
+    .navigation-for-mobile .next {
+      right: 25px;
+      position: absolute;
+      top: 250px;
+    }
+
+    .navigation .nav-btn {
+      cursor: pointer;
+    }
+
+    .navigation-for-mobile i {
+        font-size: 15px;
+    }
+
+}
+
+.footer-firstflex {
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contact-text{
+    background-color: #282828;
+    width: 60px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.footer-work-text {
+    margin: 10px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.footer-firstflex-two {
+    flex-basis: 60%;
+}
+
+.footer-address-links {
+    background-color: #282828;
+    padding: 15px 20px;
+}
+
+.footer-address-links a {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--whitecolor);
+    text-decoration: none;
+}
+
+.footer-number-link {
+    margin-top: 20px;
+}
+
+.footer-secondflex {
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #282828;
+}
+
+.favicon-upload {
+    background-image: url(../asset/favicon.png);
+    background-position: center;
+    background-size: cover;
+    width: 56px;
+    height: 56px;
+}
+
+.footer-secondflex-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-secondflex-icons a {
+    color: var(--whitecolor);
+    text-decoration: none;
+}
+
+.footer-secondflex-icons p {
+    background-color: #222;
+    width: 40px;
+    margin-left: 7px;
+    padding: 10px 0px;
+}
+
+.footer-secondflex-icons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.footer-thirdflex {
+    padding: 20px 0px;
+    display: flex;
+    border-bottom: 1px solid #282828;
+}
+
+.footer-thirdflex a {
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-thirdflex-one {
+    margin-right: 62px;
+}
+
+.copyright-logo {
+    padding: 20px 0px 70px 0px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .footer-firstflex {
+        padding-bottom: 50px;
+    }
+    
+    .footer-work-text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .footer-address-links a {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--whitecolor);
+        text-decoration: none;
+    }
+    
+    .favicon-upload {
+        background-image: url(../asset/favicon.png);
+        background-position: center;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .footer-secondflex-icons p {
+        background-color: #222;
+        width: 30px;
+        margin-left: 7px;
+        padding: 10px 0px;
+    }
+    
+    .footer-secondflex-icons i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+    
+    .footer-thirdflex {
+        padding: 20px 0px;
+        display: flex;
+        border-bottom: 1px solid #282828;
+    }
+    
+    .footer-thirdflex a {
+        color: grey;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    
+    .footer-thirdflex-one {
+        margin-right: 62px;
+    }
+    
+    .copyright-logo {
+        padding: 20px 0px 70px 0px;
+        color: grey;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+/*About*/
+.about {
+    padding: 156px 0px 90px 0px;
+}
+
+.aboutme-heading {
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.aboutme-text {
+    font-size: 16px;
+}
+
+.about-pic {
+    background-image: url(../asset/solo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin: 90px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 106px 0px 50px 0px;
+    }
+    
+    .aboutme-heading {
+        margin-bottom: 20px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    .aboutme-text {
+        font-size: 13px;
+    }
+    
+    .about-pic {
+        background-color: aqua;
+        height: 300px;
+        margin: 50px 0px 0px 0px;
+    } 
+}
+
+.experience-heading {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.experience-text {
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.experience-flex {
+    display: flex;
+    position: relative;
+}
+
+.selectedvideos-carousels {
+    position: relative;
+}
+
+.background-experience-flex {
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+}
+
+.experience-flex-right {
+    margin-right: 20px;
+}
+
+.experience-flex-one {
+    background-image: url(../asset/brands/Agro\ Malll@300x.png);   
+}
+
+.experience-flex-two {
+    background-image: url(../asset/brands/Hifast.png);  
+}
+
+.experience-flex-three {
+    background-image: url(../asset/brands/Beesreign\ Logo.png); 
+}
+
+.experience-flex-four {
+    background-image: url(../asset/brands/Porch\ Logo.png);   
+}
+
+.experience-flex-five {
+    background-image: url(../asset/brands/Radio\ Lagos\ PNG.png);
+}
+
+.experience-flex-six {
+    background-image: url(../asset/brands/SuperFMLogo.png);
+}
+
+.experience-flex-seven {
+    background-image: url(../asset/brands/TM\ PEERLESS\ LOGO@300x.png);
+}
+
+.left-right-lft {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    border-radius: 100%;
+}
+
+.left-right-rgt {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    border-radius: 100%;
+}
+
+@media (max-width: 768px) {
+    .experience-heading {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .experience-text {
+        padding-bottom: 30px;
+        font-size: 13px;
+    }
+    
+    .background-experience-flex {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .experience-flex-right {
+        margin-right: 15px;
+    }
+
+    .left-right-lft {
+        top: 55px;
+        left: 30px;
+    }
+    
+    .left-right-rgt {
+        top: 55px;
+        right: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .experience-heading {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .experience-text {
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+    
+    .background-experience-flex {
+        width: 110px;
+        height: 68px;
+    }
+    
+    .experience-flex-right {
+        margin-right: 10px;
+    }
+
+    .left-right-lft {
+        top: 25px;
+        left: 10px;
+    }
+    
+    .left-right-rgt {
+        top: 25px;
+        right: 10px;
+    }
+
+    #left-right i {
+        padding: 10px 13px;
+        font-size: 9px;
+    }
+}
+
+.tools {
+    margin-top: 90px;
+}
+
+.tools-text {
+    padding-bottom: 100px;
+}
+
+.tools-text p {
+    padding: 40px 0px 0px 20px;
+    font-size: 20px;
+}
+
+.about-button {
+    margin-bottom: 90px;
+}
+
+.about-button button {
+    background-color: var(--buttoncolor);
+    border: none;
+
+}
+
+.about-button a:hover {
+    color: wheat;
+}
+
+@media (max-width: 768px) {
+    .tools {
+        margin-top: 50px;
+    }
+    
+    .tools-text {
+        padding-bottom: 100px;
+    }
+    
+    .tools-text p {
+        padding: 30px 0px 0px 15px;
+        font-size: 15px;
+    }
+    
+    .about-button {
+        margin-bottom: 50px;
+    }
+    
+    .about-button button {
+        font-size: 13px;
+    }
+
+}

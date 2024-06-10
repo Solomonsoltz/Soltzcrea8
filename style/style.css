@@ -639,23 +639,22 @@ body * {
 
     .item {
         display: none;
-      }
+    }
       
     .main {
         display: block;
-      }
+    }
 
     .navigation-for-mobile .prev {
       position: absolute;
-      top: 250px;
+      top: 200px;
       left: 10px;
-
     }
 
     .navigation-for-mobile .next {
       right: 25px;
       position: absolute;
-      top: 250px;
+      top: 200px;
     }
 
     .navigation .nav-btn {
@@ -1019,7 +1018,7 @@ body * {
     }
 
     #left-right i {
-        padding: 10px 13px;
+        padding: 5px 8px;
         font-size: 9px;
     }
 }
