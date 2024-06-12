@@ -96,6 +96,15 @@ body * {
     .header {
         height: 80px;
     }
+
+    /* .navigation-list {
+        position: fixed;
+        right: -100%;
+        top: 5em;
+        flex-direction: column;
+        transition: 0.3s;
+        z-index: 100;
+    } */
 }
 
 /* ends here */
@@ -914,31 +923,43 @@ body * {
 }
 
 .experience-flex-one {
-    background-image: url(../asset/brands/Agro\ Malll@300x.png);   
+    background-image: url(../asset/brands/ENG\ logo.png);   
 }
 
 .experience-flex-two {
-    background-image: url(../asset/brands/Hifast.png);  
+    background-image: url(../asset/brands/epac\ studios\ logosvv.png);  
 }
 
 .experience-flex-three {
-    background-image: url(../asset/brands/Beesreign\ Logo.png); 
+    background-image: url(../asset/brands/SuperFMLogo.png); 
 }
 
 .experience-flex-four {
-    background-image: url(../asset/brands/Porch\ Logo.png);   
+    background-image: url(../asset/brands/Beesreign\ Logo.png);      
 }
 
 .experience-flex-five {
-    background-image: url(../asset/brands/Radio\ Lagos\ PNG.png);
+    background-image: url(../asset/brands/Dangote-Group\ png.png); 
 }
 
 .experience-flex-six {
-    background-image: url(../asset/brands/SuperFMLogo.png);
+    background-image: url(../asset/brands/Agro\ Malll@300x.png);
 }
 
 .experience-flex-seven {
+    background-image: url(../asset/brands/Hifast.png);
+}
+
+.experience-flex-eight {
     background-image: url(../asset/brands/TM\ PEERLESS\ LOGO@300x.png);
+}
+
+.experience-flex-nine {
+    background-image: url(../asset/brands/Radio\ Lagos\ PNG.png);
+}
+
+.experience-flex-ten {
+    background-image: url(../asset/brands/Porch\ Logo.png);
 }
 
 .left-right-lft {
